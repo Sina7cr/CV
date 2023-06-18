@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "myFont";
+    src: url("./Khodkar.ttf");
+  }  
+@font-face {
+    font-family: "myfont2";
+    src: url("./Shekari.ttf");
+  }
+  @font-face {
+    font-family: "myfontEnglish";
+    src: url("./fontENGLISH/Wonderia-1852965/Wonderia.ttf");
+  }
+
+/* input[type=submit]{
+ width:500px;
+ height:100px;
+ margin: auto;
+ display: block;
+ color: #ffffff;
+ background-color: rgb(147, 237, 13);
+ background:url("./backweb.jpg");
+ cursor: pointer;
+ border-radius: 20px;
+ font-family: fantasy;
+ font-size: 50px;
+ margin-top: 30px;
+} */
+h1{
+ color: rgb(0, 0, 0);
+ display: block;
+ margin: auto;
+ text-align: center;
+ font-family: "myfont2";
+ font-size:12rem;
+}
+h2{
+    color: rgb(255, 27, 27);
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "myfont2";
+    font-size: 5rem;
+}
+p{
+    color:rgb(15, 180, 192);
+    font-size: 4rem;
+    font-family: "myfont2";
+    text-align: center;
+
+}
+th,td{
+    border:2px solid;
+    border-color: rgb(163, 3, 3); 
+    font-size: 5rem;
+}
+table,th,td{
+    width: 700px;
+    height: 100px;
+    font-family:"myFont";
+    direction: rtl;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+th{
+    font-size: 30px;
+    background-color: blue;
+    font-weight: bold;
+    border-radius: 10px;
+}
+td{
+    font-size: 20px;
+    background-color: rgb(234, 170, 170);
+     vertical-align:middle;
+     text-align: center;
+     padding: 10px;
+    font-weight: bold;
+    border-radius:10px;
+    /* font-family:"myfontEnglish" */
+}
+td:hover{
+    background-color: aqua;
+    scale: 1.1;
+}
+
+img#bahram{
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    clip-path: circle;
+}
+td#maharatid{
+    font-family: "myfontEnglish";
+    font-size: 2rem;
+}
+
+#imailid{
+    width: auto;
+    height: auto;
+    font-family: "myfontEnglish";
+    font-size: 2em;
+    color: rgb(221, 2, 2);
+    text-decoration:none;
+}
+.box{
+    
+}
+h2:hover{
+ background-image: linear-gradient(to right,rgb(13, 0, 255),rgb(234, 170, 170));
+ color: cyan;
+}
+
